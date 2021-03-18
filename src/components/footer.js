@@ -39,7 +39,7 @@ function Footer() {
               <a
                 href={href}
                 target="_blank"
-                className="block text-gray-300 hover:text-white p-1 text-sm"
+                className="block text-blue-300 hover:text-white p-1 text-sm"
                 rel="noopener noreferrer"
                 title={title}
               >

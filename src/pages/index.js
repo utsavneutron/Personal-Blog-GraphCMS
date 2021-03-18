@@ -6,10 +6,10 @@ function IndexPage({ data: { allGraphCmsPost } }) {
     <div className="divide-y divide-gray-200">
       <div className="pt-6 pb-8 space-y-2 md:space-y-5">
         <h1 className="text-3xl leading-9 font-extrabold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Latest
+          Utsav's Blog
         </h1>
         <p className="text-lg leading-7 text-gray-500">
-          Our latest blog posts.
+          Welcome to my personal blog
         </p>
       </div>
 
@@ -43,7 +43,7 @@ function IndexPage({ data: { allGraphCmsPost } }) {
                   <div className="text-base leading-6 font-medium">
                     <Link
                       to={`/posts/${post.slug}`}
-                      className="text-purple-500 hover:text-purple-600"
+                      className="text-blue-500 hover:text-blue-600"
                       aria-label={`Read "${post.title}"`}
                     >
                       Read more &rarr;
